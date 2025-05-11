@@ -188,5 +188,12 @@ body > footer {
     margin-top: auto;
 }
 
+/* Add this to your style.css */
+.product-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    flex: none !important;    /* 👈 prevents flexbox from breaking it */
+}
 
 
