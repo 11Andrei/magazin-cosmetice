@@ -2,7 +2,8 @@
 <html lang="ro">
 <head>
     <meta charset="UTF-8">
-    <title>Săpun natural ZYRA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Săpun artizanal ZYRA</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,30 +19,40 @@
         </nav>
     </header>
 
-    <div class="product-detail">
-        <h2>Săpun natural ZYRA</h2>
-        <img src="Sapun.jpg" alt="Săpun Natural">
-        <p>
-            Spală-te cu încredere folosind <strong>săpunul natural ZYRA</strong>, realizat prin saponificare la rece, pentru a păstra toate proprietățile nutritive ale uleiurilor vegetale.
-        </p>
-        <p>
-            <strong>Ingrediente esențiale:</strong><br>
-            • Ulei de cocos – spumare bogată și proprietăți antibacteriene.<br>
-            • Unt de shea – hrănește și protejează pielea.<br>
-            • Ulei esențial de lavandă – pentru o aromă naturală și relaxantă.
-        </p>
-        <p>
-            <strong>Potrivit pentru:</strong> față, mâini și corp. Ideal pentru toate tipurile de piele, inclusiv sensibilă.
-        </p>
-        <p><strong>Fără: parfumuri sintetice, coloranți, parabeni sau conservanți.</strong></p>
-        <p style="font-size: 18px; margin-top: 20px;"><strong>Preț: 25 lei</strong></p>
-
-        <div style="margin-top: 20px;">
-            <a href="produse.html"><button>Înapoi la Produse</button></a>
-            <button>Adaugă în coș</button>
+    <section class="product-detail-flex">
+        <div class="product-image-block">
+            <img src="Sapun.jpg" alt="Săpun artizanal ZYRA">
+            <div class="product-icons">
+                <img src="natural.png" alt="Natural">
+                <img src="delivery.png" alt="Livrare rapidă">
+                <img src="paraben.png" alt="Fără parabeni">
+            </div>
         </div>
-    </div>
+        <div class="product-info">
+            <h2>Săpun artizanal ZYRA</h2>
+            <p>Creat manual din ingrediente 100% naturale, săpunul artizanal ZYRA curăță delicat pielea, oferindu-i hidratarea și prospețimea de care are nevoie. Potrivit pentru toate tipurile de piele, inclusiv cea sensibilă.</p>
 
-    <footer>© 2025 Zyra. Toate drepturile rezervate.</footer>
+            <p><strong>Ingrediente:</strong></p>
+            <ul>
+                <li>Ulei de măsline și ulei de cocos pentru o spumă bogată și catifelare;</li>
+                <li>Extract de lavandă și mușețel pentru efect calmant și regenerant.</li>
+            </ul>
+
+            <p><strong>Textură:</strong> solidă, spumă fină care nu usucă pielea.</p>
+            <p><strong>Utilizare:</strong> Aplică pe pielea umedă și masează ușor. Clătește cu apă caldă.</p>
+
+            <p><strong>Fără parfum sintetic. Fără coloranți artificiali. Vegan.</strong></p>
+
+            <div class="price">Preț: 25 lei</div>
+            <div class="product-buttons">
+                <button onclick="window.location.href='produse.html'">Înapoi la Produse</button>
+                <button>Adaugă în coș</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 Zyra. Toate drepturile rezervate.
+    </footer>
 </body>
 </html>
