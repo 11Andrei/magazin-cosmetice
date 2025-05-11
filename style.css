@@ -50,9 +50,9 @@ nav a:hover {
 /* HERO SECTION PREMIUM */
 .hero {
     background: linear-gradient(135deg, #1e1e1e 0%, #2b2b2b 100%);
-    min-height: 350px;
+    min-height: 200px;
     height: 50vh;
-    max-height: 450px;
+    max-height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
