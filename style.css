@@ -92,15 +92,15 @@ nav a:hover {
 /* CONTAINER */
 .container {
     max-width: 1200px;
-    margin: 30px auto;
-    padding: 20px;
+    margin: 15px auto;
+    padding: 10px;
 }
 
 /* TITLES */
 h2 {
     color: #e0c36e;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 /* BEST SELLERS */
