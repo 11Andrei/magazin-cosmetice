@@ -2,7 +2,8 @@
 <html lang="ro">
 <head>
     <meta charset="UTF-8">
-    <title>Parfum Zyra</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parfum natural ZYRA</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,29 +19,37 @@
         </nav>
     </header>
 
-    <div class="product-detail">
-        <h2>Parfum Zyra "Zéphira"</h2>
-        <img src="Parfum.png" alt="Parfum Natural">
-        <p>
-            „Zéphira” este un parfum subtil și proaspăt, inspirat de frumusețea naturii și puritatea ingredientelor naturale. Fiecare notă evocă simțul unei grădini delicate, unde flora luxuriantă se îmbină armonios cu aerul curat și revigorant.
-        </p>
-        <p>
-            <strong>Note de vârf:</strong> O explozie de citrice verzi și grapefruit răcoritor, completată de un strop de lavandă, ce aduc un început energic și curat.
-        </p>
-        <p>
-            <strong>Note de mijloc:</strong> Un buchet de flori delicate – iasomie și frezie – învăluite în notele lemnoase de cedru, ce adaugă o profunzime subtilă și o eleganță rafinată.
-        </p>
-        <p>
-            <strong>Note de bază:</strong> Un amestec de mosc alb și vanilie ușoară, care lasă un parfum de durată, cald și reconfortant, ce evocă senzația unui confort natural, aproape primitor.
-        </p>
-        <p style="font-size: 18px; margin-top: 20px;"><strong>Preț: 80 lei</strong></p>
-
-        <div style="margin-top: 20px;">
-            <a href="produse.html"><button>Înapoi la Produse</button></a>
-            <button>Adaugă în coș</button>
+    <section class="product-detail-flex">
+        <div class="product-image-block">
+            <img src="Parfum.png" alt="Parfum natural ZYRA">
+            <div class="product-icons">
+                <img src="natural.png" alt="Natural">
+                <img src="delivery.png" alt="Livrare rapidă">
+                <img src="paraben.png" alt="Fără parabeni">
+            </div>
         </div>
-    </div>
+        <div class="product-info">
+            <h2>Parfum natural ZYRA</h2>
+            <p>„Zéphira” este un parfum subtil și proaspăt, inspirat de frumusețea naturii și puritatea ingredientelor naturale. Fiecare notă evocă simțul unei grădini delicate, unde flora luxuriantă se îmbină armonios cu aerul curat și revigorant.</p>
 
-    <footer>© 2025 Zyra. Toate drepturile rezervate.</footer>
+            <ul>
+                <li><strong>Note de vârf:</strong> O explozie de citrice verzi și grapefruit răcoritor, completată de un strop de lavandă, ce aduc un început energic și curat.</li>
+                <li><strong>Note de mijloc:</strong> Un buchet de flori delicate – iasomie și frezie – învăluite în notele lemnoase de cedru, ce adaugă profunzime și rafinament.</li>
+                <li><strong>Note de bază:</strong> Un amestec de mosc alb și vanilie ușoară, pentru o senzație caldă și reconfortantă.</li>
+            </ul>
+
+            <p><strong>Fără alcool. Fără coloranți. Fără ingrediente artificiale.</strong></p>
+
+            <div class="price">Preț: 80 lei</div>
+            <div class="product-buttons">
+                <button onclick="window.location.href='produse.html'">Înapoi la Produse</button>
+                <button>Adaugă în coș</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 Zyra. Toate drepturile rezervate.
+    </footer>
 </body>
 </html>
