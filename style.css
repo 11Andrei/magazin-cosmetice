@@ -204,3 +204,39 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
+/* FIX Best Sellers centrare */
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* HIGHLIGHTS SECTION */
+.highlights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    text-align: center;
+}
+
+.highlight img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.highlight h3 {
+    color: #e0c36e;
+    margin-bottom: 5px;
+}
+
+/* TESTIMONIALS */
+blockquote {
+    border-left: 4px solid #e0c36e;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-style: italic;
+    color: #ddd;
+    max-width: 600px;
+}
+
