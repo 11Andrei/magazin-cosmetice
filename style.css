@@ -88,17 +88,18 @@ nav a:hover {
     transform: scale(1.05);
 }
 
-/* CONTAINER */
+/* CONTAINER - RIDICAT */
 .container {
     max-width: 1200px;
-    margin: 10px auto;
+    margin: 5px auto;
     padding: 5px 15px;
 }
 
-/* TITLES */
+/* TITLES - RIDICAT */
 h2 {
     color: #e0c36e;
     text-align: center;
+    margin-top: 5px;
     margin-bottom: 10px;
     font-size: 2em;
 }
@@ -111,7 +112,7 @@ h2 {
     flex-wrap: wrap;
 }
 
-/* PRODUCT GRID PENTRU PAGINA PRODUSE */
+/* PRODUCT GRID */
 .product-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
