@@ -2,6 +2,7 @@
 <html lang="ro">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loțiune hidratantă de corp ZYRA</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -18,30 +19,40 @@
         </nav>
     </header>
 
-    <div class="product-detail">
-        <h2>Loțiune hidratantă de corp ZYRA</h2>
-        <img src="Lotiune.jpg" alt="Loțiune Naturală">
-        <p>
-            Răsfață-ți pielea cu o hidratare profundă și un parfum discret natural. <strong>Loțiunea hidratantă ZYRA</strong> este ideală pentru pielea uscată sau ternă, oferindu-i elasticitate, strălucire și un aspect sănătos.
-        </p>
-        <p>
-            <strong>Ingrediente cheie:</strong><br>
-            • Ulei de cocos – pătrunde în profunzime și înmoaie pielea.<br>
-            • Extract de lavandă – pentru o aromă delicată, calmantă.
-        </p>
-        <p>
-            <strong>Textură:</strong> lejeră, non-grasă, se absoarbe rapid și lasă pielea mătăsoasă.<br>
-            <strong>Utilizare:</strong> Aplică zilnic după baie sau duș, pe pielea ușor umedă.
-        </p>
-        <p><strong>100% ingrediente naturale. Fără alcool. Fără coloranți artificiali.</strong></p>
-        <p style="font-size: 18px; margin-top: 20px;"><strong>Preț: 45 lei</strong></p>
-
-        <div style="margin-top: 20px;">
-            <a href="produse.html"><button>Înapoi la Produse</button></a>
-            <button>Adaugă în coș</button>
+    <section class="product-detail-flex">
+        <div class="product-image-block">
+            <img src="Lotiune.jpg" alt="Loțiune hidratantă de corp ZYRA">
+            <div class="product-icons">
+                <img src="natural.png" alt="Natural">
+                <img src="delivery.png" alt="Livrare rapidă">
+                <img src="paraben.png" alt="Fără parabeni">
+            </div>
         </div>
-    </div>
+        <div class="product-info">
+            <h2>Loțiune hidratantă de corp ZYRA</h2>
+            <p>Răsfață-ți pielea cu o hidratare profundă și un parfum discret natural. Loțiunea hidratantă ZYRA este ideală pentru pielea uscată sau ternă, oferindu-i elasticitate, strălucire și un aspect sănătos.</p>
 
-    <footer>© 2025 Zyra. Toate drepturile rezervate.</footer>
+            <p><strong>Ingrediente cheie:</strong></p>
+            <ul>
+                <li>Ulei de cocos – pătrunde în profunzime și înmoaie pielea;</li>
+                <li>Extract de lavandă – pentru o aromă delicată, calmantă.</li>
+            </ul>
+
+            <p><strong>Textură:</strong> lejeră, non-grasă, se absoarbe rapid și lasă pielea mătăsoasă.</p>
+            <p><strong>Utilizare:</strong> Aplică zilnic după baie sau duș, pe pielea ușor umedă.</p>
+
+            <p><strong>100% ingrediente naturale. Fără alcool. Fără coloranți artificiali.</strong></p>
+
+            <div class="price">Preț: 45 lei</div>
+            <div class="product-buttons">
+                <button onclick="window.location.href='produse.html'">Înapoi la Produse</button>
+                <button>Adaugă în coș</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 Zyra. Toate drepturile rezervate.
+    </footer>
 </body>
 </html>
