@@ -20,7 +20,8 @@ header {
 }
 
 header img {
-    height: 50px;
+    height: 35px;
+    margin-right: 10px;
 }
 
 header h1 {
