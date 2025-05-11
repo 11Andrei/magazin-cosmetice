@@ -108,6 +108,27 @@ h2 {
     flex-wrap: wrap;
 }
 
+/* PRODUCT GRID PENTRU PAGINA PRODUSE */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+}
+
+@media (max-width: 1024px) {
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* PRODUCT CARD */
 .product {
     background-color: #1e1e1e;
     border-radius: 10px;
