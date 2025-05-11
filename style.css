@@ -1,3 +1,5 @@
+# Stilul complet cu patch-ul final pentru .product-icons
+final_style = """
 /* GENERAL RESET + LAYOUT */
 html, body {
     height: 100%;
@@ -348,17 +350,18 @@ footer {
     }
 }
 
+/* PRODUCT ICONS FINAL VERSION */
 .product-icons {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    margin-top: 25px;        /* ⬅️ adaugă mai mult spațiu între poză și iconițe */
+    gap: 25px;
+    margin-top: 30px;
 }
 
 .product-icons img {
-    width: 140px;             /* ⬅️ mărime iconițe mai mare */
-    height: 140px;
+    width: 80px;
+    height: 80px;
     filter: drop-shadow(0 0 4px rgba(0,0,0,0.5));
     transition: transform 0.3s ease;
 }
@@ -366,30 +369,3 @@ footer {
 .product-icons img:hover {
     transform: scale(1.1);
 }
-
-.product-image-block {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.product-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    margin-top: 15px;
-}
-
-.product-icons img {
-    width: 50px;
-    height: 50px;
-    filter: drop-shadow(0 0 4px rgba(0,0,0,0.5));
-    transition: transform 0.3s ease;
-}
-
-.product-icons img:hover {
-    transform: scale(1.1);
-}
-
-
