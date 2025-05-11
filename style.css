@@ -9,24 +9,66 @@ body {
 header {
     background-color: #1e1e1e;
     text-align: center;
-    padding: 20px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+}
+
+header img {
+    height: 50px;
 }
 
 header h1 {
     color: #e0c36e;
-    font-size: 2.5em;
+    font-size: 2em;
+    margin: 0 15px;
 }
 
 nav a {
     color: #ffffff;
-    margin: 0 15px;
+    margin: 0 10px;
     text-decoration: none;
     font-weight: bold;
 }
 
 nav a:hover {
     color: #e0c36e;
+}
+
+.hero {
+    background: url('hero-background.jpg') center/cover no-repeat;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #e0c36e;
+}
+
+.hero button {
+    background-color: #e0c36e;
+    border: none;
+    color: #121212;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.hero button:hover {
+    background-color: #c9aa53;
 }
 
 .container {
@@ -51,8 +93,13 @@ h2 {
     background-color: #1e1e1e;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.7);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.7);
     text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: scale(1.05);
 }
 
 .product img {
