@@ -1,14 +1,17 @@
-/* style.css */
-body {
-    background-color: #121212;
+/* GENERAL RESET + LAYOUT */
+html, body {
+    height: 100%;
+    margin: 0;
     font-family: 'Arial', sans-serif;
     color: #ffffff;
-    margin: 0;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
 }
 
+/* HEADER */
 header {
     background-color: #1e1e1e;
-    text-align: center;
     padding: 10px 20px;
     display: flex;
     align-items: center;
@@ -44,6 +47,7 @@ nav a:hover {
     text-shadow: 0 0 5px #e0c36e;
 }
 
+/* HERO SECTION */
 .hero {
     background: url('hero-background.jpg') center/cover no-repeat;
     height: 400px;
@@ -75,24 +79,29 @@ nav a:hover {
     background-color: #c9aa53;
 }
 
+/* CONTAINER */
 .container {
     max-width: 1200px;
     margin: 30px auto;
     padding: 20px;
 }
 
+/* TITLES */
 h2 {
     color: #e0c36e;
     text-align: center;
     margin-bottom: 30px;
 }
 
+/* PRODUCT GRID (FIXED) */
 .product-grid {
-    display: grid;
+    display: grid !important;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
+    flex: none !important;
 }
 
+/* PRODUCT CARD */
 .product {
     background-color: #1e1e1e;
     border-radius: 10px;
@@ -117,6 +126,7 @@ h2 {
     font-size: 15px;
 }
 
+/* BUTTONS */
 button {
     background-color: #e0c36e;
     border: none;
@@ -132,13 +142,7 @@ button:hover {
     background-color: #c9aa53;
 }
 
-footer {
-    background-color: #1e1e1e;
-    text-align: center;
-    padding: 15px;
-    margin-top: 30px;
-}
-
+/* PRODUCT DETAIL PAGE */
 .product-detail {
     background-color: #1e1e1e;
     padding: 30px;
@@ -169,13 +173,7 @@ footer {
     margin-bottom: 15px;
 }
 
-/* NEW: Make page always fill screen and push footer to bottom */
-html, body {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
+/* FOOTER ALWAYS AT BOTTOM */
 body > header,
 body > .hero,
 body > .container,
@@ -188,12 +186,9 @@ body > footer {
     margin-top: auto;
 }
 
-/* Add this to your style.css */
-.product-grid {
-    display: grid !important;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
-    flex: none !important;    /* 👈 prevents flexbox from breaking it */
+/* FOOTER STYLE */
+footer {
+    background-color: #1e1e1e;
+    text-align: center;
+    padding: 15px;
 }
-
-
