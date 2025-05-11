@@ -249,3 +249,42 @@ blockquote {
     gap: 20px;
 }
 
+/* BEST SELLERS ONLY - FIX CENTER FOR 2 ITEMS */
+.best-sellers {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* HIGHLIGHTS SECTION */
+.highlights {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.highlight img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.highlight h3 {
+    color: #e0c36e;
+    margin-bottom: 5px;
+}
+
+/* TESTIMONIALS */
+blockquote {
+    border-left: 4px solid #e0c36e;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-style: italic;
+    color: #ddd;
+    max-width: 600px;
+}
+
+
