@@ -279,6 +279,8 @@ footer {
 
 .product-detail-flex img {
     width: 400px;
+    height: 400px;               /* ➡️ adaugă asta */
+    object-fit: cover;           /* ➡️ ca să nu deformeze imaginea */
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
