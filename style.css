@@ -93,12 +93,24 @@ h2 {
     margin-bottom: 30px;
 }
 
-/* PRODUCT GRID (FIXED) */
+/* PRODUCT GRID (NEW RESPONSIVE) */
 .product-grid {
     display: grid !important;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
     flex: none !important;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 1024px) {
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* PRODUCT CARD */
