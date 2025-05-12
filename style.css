@@ -1,3 +1,4 @@
+
 /* GENERAL RESET + LAYOUT */
 html, body {
     height: 100%;
@@ -21,7 +22,6 @@ header {
     z-index: 1000;
     box-shadow: 0 4px 6px rgba(0,0,0,0.5);
     border-bottom: 2px solid #e0c36e;
-    height: 70px; /* Setează o înălțime fixă pentru header */
 }
 
 header img {
@@ -161,9 +161,11 @@ h2 {
 }
 
 .product p {
-    padding: 10px;
+    padding: 5px 10px 2px 10px;
     font-size: 15px;
+    margin: 0;
 }
+
 
 /* BUTTONS */
 button {
@@ -279,8 +281,8 @@ footer {
 
 .product-detail-flex img {
     width: 400px;
-    height: 400px;
-    object-fit: cover;
+    height: 400px;               /* ➡️ adaugă asta */
+    object-fit: cover;           /* ➡️ ca să nu deformeze imaginea */
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
@@ -363,6 +365,127 @@ footer {
 .product-icons img {
     width: 80px;
     height: 80px;
-    filter: drop-shadow(0 0 4
-::contentReference[oaicite:15]{index=15}
- 
+    filter: drop-shadow(0 0 4px rgba(0,0,0,0.5));
+    transition: transform 0.3s ease;
+}
+
+.product-icons img:hover {
+    transform: scale(1.1);
+}
+
+/* PRODUSE.HTML - Preț mărit și mai aproape de buton */
+.product-price {
+    font-size: 2.4em;
+    font-weight: 700;
+    color: #e0c36e;
+    margin: 5px 0 8px 0;   /* ⬅️ spațiu mult mai mic între rating și preț + preț și buton */
+    text-align: center;
+}
+
+
+.product a button {
+    margin-top: 0;
+}
+
+/* CONTACT FORM */
+.contact-form {
+    width: 100%;
+    max-width: 700px;          /* uniform cu restul paginilor */
+    margin: 0 auto 40px auto;
+    background-color: #1e1e1e;
+    padding: 30px 20px;        /* padding egal și mai compact */
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.7);
+    box-sizing: border-box;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #e0c36e;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2b2b2b;
+    color: #ffffff;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border: 2px solid #e0c36e;
+    background-color: #333333;
+}
+
+.contact-form button {
+    background-color: #e0c36e;
+    border: none;
+    color: #121212;
+    padding: 12px 24px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1em;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #c9aa53;
+    transform: scale(1.05);
+}
+
+.contact-info {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+/* CONTACT PAGE LAYOUT */
+.contact-page {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.contact-page h2 {
+    color: #e0c36e;
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.contact-page p {
+    color: #ffffff;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+/* CONTACT INFO SECTION */
+.contact-info {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.7);
+    margin-bottom: 30px;
+}
+
+.contact-info p {
+    color: #ffffff;
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+/* REDUCE SPACE BETWEEN contact-info and form */
+.contact-page + .container {
+    margin-top: -20px; /* ✅ ridică puțin formularul */
+}
