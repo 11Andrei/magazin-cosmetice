@@ -485,4 +485,10 @@ footer {
     font-size: 1em;
 }
 
+/* REDUCE SPACE BETWEEN contact-info and form */
+.contact-page + .container {
+    margin-top: -20px; /* ✅ ridică puțin formularul */
+}
+
+
 
