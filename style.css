@@ -370,3 +370,17 @@ footer {
 .product-icons img:hover {
     transform: scale(1.1);
 }
+
+/* PRODUSE.HTML - Preț mărit și mai aproape de buton */
+.product-price {
+    font-size: 1.4em;
+    font-weight: 700;
+    color: #e0c36e;
+    margin: 10px 0 5px 0;
+    text-align: center;
+}
+
+.product a button {
+    margin-top: 0;
+}
+
