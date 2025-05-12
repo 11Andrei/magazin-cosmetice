@@ -161,9 +161,11 @@ h2 {
 }
 
 .product p {
-    padding: 10px;
+    padding: 5px 10px 2px 10px;
     font-size: 15px;
+    margin: 0;
 }
+
 
 /* BUTTONS */
 button {
@@ -373,12 +375,13 @@ footer {
 
 /* PRODUSE.HTML - Preț mărit și mai aproape de buton */
 .product-price {
-    font-size: 1.4em;
+    font-size: 2.4em;
     font-weight: 700;
     color: #e0c36e;
-    margin: 10px 0 5px 0;
+    margin: 5px 0 8px 0;   /* ⬅️ spațiu mult mai mic între rating și preț + preț și buton */
     text-align: center;
 }
+
 
 .product a button {
     margin-top: 0;
