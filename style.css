@@ -390,15 +390,14 @@ footer {
 /* CONTACT FORM */
 .contact-form {
     width: 100%;
-    max-width: 600px;
+    max-width: 700px;          /* uniform cu restul paginilor */
     margin: 0 auto 40px auto;
     background-color: #1e1e1e;
-    padding: 30px 25px;      /* ✅ padding stânga/dreapta egal */
+    padding: 30px 20px;        /* padding egal și mai compact */
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.7);
-    box-sizing: border-box;  /* ✅ previne extinderea peste max-width */
+    box-sizing: border-box;
 }
-
 
 .contact-form label {
     display: block;
@@ -417,6 +416,7 @@ footer {
     background-color: #2b2b2b;
     color: #ffffff;
     font-size: 1em;
+    box-sizing: border-box;
 }
 
 .contact-form input:focus,
