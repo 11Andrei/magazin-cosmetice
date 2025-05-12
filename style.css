@@ -450,4 +450,39 @@ footer {
     color: #ffffff;
 }
 
+/* CONTACT PAGE LAYOUT */
+.contact-page {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.contact-page h2 {
+    color: #e0c36e;
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.contact-page p {
+    color: #ffffff;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+/* CONTACT INFO SECTION */
+.contact-info {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.7);
+    margin-bottom: 30px;
+}
+
+.contact-info p {
+    color: #ffffff;
+    margin: 5px 0;
+    font-size: 1em;
+}
+
 
