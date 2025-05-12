@@ -389,13 +389,16 @@ footer {
 
 /* CONTACT FORM */
 .contact-form {
+    width: 100%;
     max-width: 600px;
     margin: 0 auto 40px auto;
     background-color: #1e1e1e;
-    padding: 30px;
+    padding: 30px 25px;      /* ✅ padding stânga/dreapta egal */
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.7);
+    box-sizing: border-box;  /* ✅ previne extinderea peste max-width */
 }
+
 
 .contact-form label {
     display: block;
