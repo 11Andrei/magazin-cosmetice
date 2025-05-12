@@ -370,24 +370,3 @@ footer {
 .product-icons img:hover {
     transform: scale(1.1);
 }
-
-/* ------------------------------
-   MODIFICĂRI PENTRU PRODUSE.HTML
----------------------------------*/
-.product-price {
-    font-size: 1.5em;
-    font-weight: 700;
-    color: #e0c36e;
-    margin: 5px 0;
-}
-
-.product button {
-    margin-top: 5px;
-}
-
-.stars {
-    color: #e0c36e;
-    font-size: 1.1em;
-    margin-top: 5px;
-}
-
